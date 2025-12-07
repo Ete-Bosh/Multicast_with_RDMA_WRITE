@@ -1,6 +1,5 @@
-# Course-Project-Cloud-Computing
 
-A codebase for course project - RDMA multicast with WRITE.
+A codebase for a project - RDMA multicast with WRITE.
 
 ### gen_payload.c
 
