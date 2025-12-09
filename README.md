@@ -93,4 +93,6 @@ For DMA part, you need to install [DOCA framework](https://developer.nvidia.com/
    ./doca_dma_copy -p 3b:00.0 -f send.txt
    ```
 
+---
    
+   For congestion control part, you can find codes of DCQCN algorithm and an implementation of event scheduler in CC folder. Besides, I also include a google test file to verify the correctness of DCQCN. It describes all potential behavior all DCQCN events.  You can use CMake file in the folder to compile and run the test directly. It should shows all tests passed.
